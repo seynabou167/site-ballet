@@ -1,0 +1,60 @@
+/*Style général de la page*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdf0f6;
+    margin: 0;
+    padding: 0;
+}
+/*titre principale*/
+h1{
+    text-align: center;
+    color: #b03060;
+    font-size: 40px;
+}
+/*sous-titres*/
+h2{
+    color: #d63384;
+    line-height: 1,6;
+    color: #333;
+}
+/*Menu de navigation*/
+nav{
+    background-color: #f8c8dc;
+    padding: 10px;
+    text-align: center;
+}
+/*lien menu*/
+nav a {
+    text-decoration: none;
+    color: #800040;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 18px;
+}
+/*effet quand on passe la souris*/
+nav a:hover {
+    color: white;
+    background-color: #d63384;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/*images*/
+img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+/*vidéo*/
+iframe{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+/*pied de page*/
+footer{
+    background-color: #f8c8dc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
